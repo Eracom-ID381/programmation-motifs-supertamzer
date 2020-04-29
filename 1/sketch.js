@@ -10,6 +10,7 @@ function draw() {
     noFill();
     for (let x = 0; x < width; x = x + 30) {
         for (let y = 0; y < height; y = y + 21) {
+            stroke(random(0, x), 50, y);
             circle(x, y, 150);
         }
     }

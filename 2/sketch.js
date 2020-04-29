@@ -3,6 +3,7 @@ function setup() {
     let canvas = createCanvas(windowWidth - navWidth, windowHeight);
     canvas.parent('canvas');
     background(255);
+    let xoff = 0.0;
 }
 
 function draw() {
